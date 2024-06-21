@@ -10,6 +10,7 @@ namespace NewsAggregatorBackend.Controllers
 		[HttpGet("GetNews")]
 		public List<News> GetNews()
 		{
+  			// Dummy
 			return new List<News>();
 		}
 
