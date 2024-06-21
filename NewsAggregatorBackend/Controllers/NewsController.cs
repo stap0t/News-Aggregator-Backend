@@ -16,6 +16,7 @@ namespace NewsAggregatorBackend.Controllers
 		[HttpGet("Get")]
 		public News Get()
 		{
+  			// Dummy
 			return new News(1, "Haha", "htpsre/sgasgsa/asdummyyurk", "neam pojma", new DateTime(1997, 3, 1), "Jas", "nezn");
 		}
 	}
